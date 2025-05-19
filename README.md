@@ -37,6 +37,7 @@ Verify that the log entries have been completed at all stages by checking the co
 - **Logging**: Logs all pipeline steps to a file for debugging.
 
 ## Project Structure
+```
 Project_ETL_Banks/
 ├── src/
 │   └── project_banks.py        # Main ETL script
@@ -51,7 +52,7 @@ Project_ETL_Banks/
 ├── requirements.txt            # Dependencies
 ├── .gitignore                  # Git ignore file
 └── LICENSE                     # License
-
+```
 ## Prerequisites
 - Python 3.8+
 - PostgreSQL server running on `localhost:5432`
